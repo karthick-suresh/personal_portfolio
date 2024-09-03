@@ -1,0 +1,26 @@
+/* :host{
+    height: 200px;
+} */
+
+.fa-brands,
+.fa-solid,
+cursor {
+  cursor: pointer;
+}
+
+.instagram {
+  color: rgb(243, 16, 224);
+}
+div a:hover{
+  color: white;
+}
+.fa-linkedin{
+  color: blue;
+}
+.footerInfo{
+  transition: 2s all ease;
+}
+.footerInfo:hover{
+  background-color: aquamarine;
+  color: black;
+}

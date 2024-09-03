@@ -1,0 +1,76 @@
+.profilePic {
+    height: 290px;
+    width: 75%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 2s ease;
+  }
+  .profilePic:hover{
+    transform:rotateX(360deg);
+  }
+  .showBtn{
+    color:white;
+    background-color: rgb(15, 15, 15);
+    padding: 5px;
+    width: 80px;
+    font-size: 1.3rem;
+  }
+  .showBtn:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+
+  .skill{
+    opacity: 0.2;
+    cursor: pointer;
+    transition: 2s all ease;
+  }
+  .skill:hover{
+    opacity: 1.0;
+    transform: skewX(-5deg);
+  }
+
+  /* personal Information click animation */
+
+  .pIanimation{
+    transition: all 2s ease;
+    animation: pIanimation 3s ease;
+  }
+
+  @keyframes pIanimation {
+    from{
+transform: translateX(-500px) rotateX(-360deg)  ;
+    }
+    to{
+transform: translateX(0px) ;
+    }
+    
+  }
+
+  .pIanimation:hover{
+    transform: skewX(-10deg)
+  }
+
+  div .newColor{
+    color: red;
+    font-size: 2rem;
+  }
+
+  .nextpage {
+    animation: animationFrames ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes animationFrames {
+    0% {
+      opacity: 0;
+      transform: translate(0px, -25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
+  }
+  

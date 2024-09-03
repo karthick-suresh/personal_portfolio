@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg bg-myColor">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/Home">
+      <img
+        src="../../assets/images/logo.jpg"
+        class="logo_img"
+        title="karthi's Logo"
+        alt="karthi"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainnav"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainnav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            routerLink="/Home"
+            routerLinkActive="active"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            aria-current="page"
+            routerLink="/About"
+            routerLinkActive="active"
+            >About Us</a
+          >
+        </li>
+        <!-- <li class="nav-item">
+          <a
+            class="nav-link"
+            aria-current="page"
+            routerLink fragment="skillContent"
+            >skill</a
+          >
+        </li> -->
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            aria-current="page"
+            routerLink="/Contact"
+            routerLinkActive="active"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

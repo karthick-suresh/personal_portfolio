@@ -1,0 +1,19 @@
+.bg-myColor{
+    background-color: rgb(221, 100, 237);
+}
+
+
+.logo_img{
+    width: 100px;
+    max-height: 40px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    margin-right: 15px;
+    color: rgb(255, 251, 0);
+}
+.nav-link:hover{
+    color: red;
+    
+}
